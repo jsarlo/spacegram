@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import React from 'react';
 import { TwinSpin } from "react-cssfx-loading/lib";
 
 const StyledLoading = styled.div`
