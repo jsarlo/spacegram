@@ -53,5 +53,8 @@
   "devDependencies": {
     "@types/react-image-gallery": "^1.0.5",
     "@types/styled-components": "^5.1.15"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
