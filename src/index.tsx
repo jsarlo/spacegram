@@ -4,10 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
+import { offsetLimitPagination } from '@apollo/client/utilities';
 
 const client = new ApolloClient({
   uri: 'https://api.spacex.land/graphql',
-  cache: new InMemoryCache()
+  cache: new InMemoryCache({
+    typePolicies: {
+      Query: {
+        fields: {
+          launchesPast: offsetLimitPagination()
+        }
+      }
+    }
+  })
 })
 
 ReactDOM.render(
