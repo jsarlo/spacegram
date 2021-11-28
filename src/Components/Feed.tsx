@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import GetLaunches from "./Quereis/GetLaunches";
+import GetLaunches from "./Queries/GetLaunches";
 
 const StyledFeed = styled.div`
   display: flex;
