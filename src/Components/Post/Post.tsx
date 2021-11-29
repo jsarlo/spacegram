@@ -12,6 +12,10 @@ const StyledArticle = styled.article`
       margin-bottom: 60px;
       margin-left : 20%;
       margin-right: 20%;
+      @media only screen and (max-width: 600px) {
+          margin-left: 5%;
+          margin-right: 5%;
+      }
       .Post-image-background {
         background-color: #efefef;
       }

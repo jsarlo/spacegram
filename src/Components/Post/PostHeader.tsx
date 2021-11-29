@@ -21,6 +21,13 @@ const StyledHeader = styled.header`
     .post-rocket-name {
         font-weight: bold;  
     }
+    @media only screen and (max-width: 600px) {
+        height: 75px;
+        .post-launch-site {
+            margin-right: 0;
+        }
+
+    }
 `
 
 const PostHeader = (props: LaunchPast) => {
