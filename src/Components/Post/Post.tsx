@@ -8,7 +8,6 @@ const StyledArticle = styled.article`
       margin-top: 30px;
       border-radius: 3px;
       border: 1px solid #e6e6e6;
-      background-color: #fff;
       margin-bottom: 60px;
       margin-left : 20%;
       margin-right: 20%;
